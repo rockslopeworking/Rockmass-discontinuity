@@ -38,3 +38,5 @@ The mainFunction.m include nine sections. Enter the required parameters accordin
           
       Section 8: Calculate the orientation
           Click on "run section" in the 'editor', and wait for the calculation to complete.
+## Contact
+Please feel free to leave suggestions or comments to Dr. Cao (beicao@csu.edu.cn), or Prof. Lu (luguangyin@csu.edu.cn)
