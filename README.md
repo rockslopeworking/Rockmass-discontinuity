@@ -36,7 +36,7 @@ The mainFunction.m include nine sections. Enter the required parameters accordin
       Section 8: DBSCAN is used to segment discontinuity set to obtain individual discontinuities.
           Click on "run section" in the 'editor', and input two parameters:eps and minCluster according to the content displayed in the 'Command Window'. Then, wait for the calculation to complete.
           
-      Section 8: Calculate the orientation
+      Section 9: Calculate the orientation
           Click on "run section" in the 'editor', and wait for the calculation to complete.
 ## Contact
 Please feel free to leave suggestions or comments to Dr. Cao (beicao@csu.edu.cn), or Prof. Lu (luguangyin@csu.edu.cn)
