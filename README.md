@@ -4,7 +4,7 @@ We introduces an innovative semi-automatic method to identify discontinuities fr
 ## Citing our work
 If you find our works useful in your research, please consider citing:
 
-    Cao B, Zhu X, Lu G, Lin Z, Bai D, Li Y, Zhu Z. Identification of Rock Mass Discontinuity from 3D Point Clouds Using Improved Fuzzy C-Means and Artificial Neural Network. 
+    Lu G, Cao B, Zhu X, Lin Z, Bai D, Tao C, Li Y. Identification of Rock Mass Discontinuity from 3D Point Clouds Using Improved Fuzzy C-Means and Artificial Neural Network. 
     
 ## Install & complie
 Please directly copy all the code into your workspace and complie it with any complier that supports MATLAB 2021b and later versions. It dose not require linking any additional libraries.
