@@ -7,7 +7,7 @@ If you find our works useful in your research, please consider citing:
     Lu G, Cao B, Zhu X, Lin Z, Bai D, Tao C, Li Y. Identification of Rock Mass Discontinuity from 3D Point Clouds Using Improved Fuzzy C-Means and Convolutional Neural Network. 
     
 ## Install & complie
-Please directly copy all the code into your workspace and complie it with any complier that supports MATLAB 2021b and later versions. It dose not require linking any additional libraries.
+Please directly copy all the code into your workspace and complie it with any complier that supports MATLAB 2021b,python 3.9 and later versions. It dose not require linking any additional libraries.
 
 ## Sample usage:
 The mainFunction.m include nine sections. Enter the required parameters according to the prompts of each part. Run it from top to bottom one by one, that is, you can run the next section only after section of the operation is complete.
