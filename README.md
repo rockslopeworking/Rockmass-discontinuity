@@ -1,10 +1,10 @@
 # Rockmass-discontinuity
 ## Introduction
-We introduces an innovative semi-automatic method to identify discontinuities from point clouds. An artificial neural network designed to identify discontinuity sets was established. Inputs to the neural network consist of normal vectors, curvature computed by K-nearest Neighbor and Principal Component Analysis, as well as point cloud coordinates. The output layer generates the value i corresponding to the determined ith discontinuity set. Learning samples for network training were randomly selected from point clouds and automatically classified using FCM and PSO algorithms. The orientations of individual discontinuities, identified from the discontinuity set using Density-Based Spatial Clustering of Applications with Noise, were calculated.
+Accurately obtaining rock mass discontinuity information holds particular significance for slope stability analysis and rock mass classification. Currently, non-contact measurement methods have increasingly become a supplementary means to traditional techniques, especially in hazardous and inaccessible areas. This study introduces an innovative semi-automatic method to identify discontinuities from point clouds. A modified convolutional neural network, AlexNet, was established to identify discontinuity sets. This architecture consists of five convolutional layers and three fully connected layers, utilizing 1×3 normal vectors computed by K-nearest Neighbor and Principal Component Analysis as input and generating an output value "i" that represents the identified discontinuity set associated with the "i" category. Learning samples for network training were randomly selected from point clouds and automatically categorized using improved Fuzzy C-Means based on Particle Swarm Optimization. The orientations of individual discontinuities, identified from the discontinuity set using Hierarchical Density-Based Spatial Clustering of Applications with Noise, were calculated. Two publicly available outcrop cases were employed to validate the efficacy of the proposed method, and parameter analysis was conducted to determine optimal parameters. The results demonstrated the reliability of the method and highlighted improvements in automation and computational efficiency.
 ## Citing our work
 If you find our works useful in your research, please consider citing:
 
-    Lu G, Cao B, Zhu X, Lin Z, Bai D, Tao C, Li Y. Identification of Rock Mass Discontinuity from 3D Point Clouds Using Improved Fuzzy C-Means and Artificial Neural Network. 
+    Lu G, Cao B, Zhu X, Lin Z, Bai D, Tao C, Li Y. Identification of Rock Mass Discontinuity from 3D Point Clouds Using Improved Fuzzy C-Means and Convolutional Neural Network. 
     
 ## Install & complie
 Please directly copy all the code into your workspace and complie it with any complier that supports MATLAB 2021b and later versions. It dose not require linking any additional libraries.
@@ -33,9 +33,11 @@ The mainFunction.m include nine sections. Enter the required parameters accordin
       Section 7: Show the classification results with one color per discontinuity set.
           Click on "run section" in the 'editor', and wait for the calculation to complete.
         
-      Section 8: DBSCAN is used to segment discontinuity set to obtain individual discontinuities.
-          Click on "run section" in the 'editor', and input two parameters:eps and minCluster according to the content displayed in the 'Command Window'. Then, wait for the calculation to complete.
-          
+      Section 8: HDBSCAN is used to segment discontinuity set to obtain individual discontinuities.
+          First run 'section 8.1' in matlab
+          Secend run 'section 8.2' in python
+          The hdbscan program for segment discontinuity set runs in python. See hdbscan.py for the code When executing hdbscan in python, import the result with the section 8.3 command
+          Finally run 'section 8.3' in matlab
       Section 9: Calculate the orientation
           Click on "run section" in the 'editor', and wait for the calculation to complete.
 ## Contact
