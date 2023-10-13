@@ -7,7 +7,43 @@ If you find our works useful in your research, please consider citing:
     Lu G, Cao B, Zhu X, Lin Z, Bai D, Tao C, Li Y. Identification of Rock Mass Discontinuity from 3D Point Clouds Using Improved Fuzzy C-Means and Convolutional Neural Network. 
     
 ## Install & complie
-Please directly copy all the code into your workspace and complie it with any complier that supports MATLAB 2021b,python 3.9 and later versions. It dose not require linking any additional libraries.
+Please directly copy all the code into your workspace and complie it with any complier that supports MATLAB 2021b,python 3.9 and later versions. The HDBSCAN library is need to install in python.
+
+Easiest install, if you have Anaconda (thanks to conda-forge which is awesome!):
+
+    conda install -c conda-forge hdbscan
+    
+PyPI install, presuming you have an up to date pip:
+
+    pip install hdbscan
+    
+Binary wheels for a number of platforms are available thanks to the work of Ryan Helinski <rlhelinski@gmail.com>.
+If pip is having difficulties pulling the dependencies then we’d suggest to first upgrade pip to at least version 10 and try again:    
+
+    pip install --upgrade pip
+    pip install hdbscan
+
+Otherwise install the dependencies manually using anaconda followed by pulling hdbscan from pip:
+
+    conda install cython
+    conda install numpy scipy
+    conda install scikit-learn
+    pip install hdbscan
+
+For a manual install of the latest code directly from GitHub:
+
+    pip install --upgrade git+https://github.com/scikit-learn-contrib/hdbscan.git#egg=hdbscan
+
+Alternatively download the package, install requirements, and manually run the installer:
+
+    wget https://github.com/scikit-learn-contrib/hdbscan/archive/master.zip
+    unzip master.zip
+    rm master.zip
+    cd hdbscan-master
+
+    pip install -r requirements.txt
+
+    python setup.py install
 
 ## Sample usage:
 The mainFunction.m include nine sections. Enter the required parameters according to the prompts of each part. Run it from top to bottom one by one, that is, you can run the next section only after section of the operation is complete.
