@@ -74,6 +74,7 @@ The mainFunction.m include nine sections. Enter the required parameters accordin
           Secend run 'section 8.2' in python
           The hdbscan program for segment discontinuity set runs in python. See hdbscan.py for the code When executing hdbscan in python, import the result with the section 8.3 command
           Finally run 'section 8.3' in matlab
+          
       Section 9: Calculate the orientation
           Click on "run section" in the 'editor', and wait for the calculation to complete.
 ## Contact
