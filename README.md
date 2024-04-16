@@ -4,7 +4,7 @@ Accurately obtaining rock mass discontinuity information holds particular signif
 ## Citing our work
 If you find our works useful in your research, please consider citing:
 
-    Lu G, Cao B, Zhu X, Lin Z, Bai D, Tao C, Li Y. Identification of Rock Mass Discontinuity from 3D Point Clouds Using Improved Fuzzy C-Means and Convolutional Neural Network. 
+    Lu, G., Cao, B., Zhu, X. et al. Identification of rock mass discontinuity from 3D point clouds using improved fuzzy C-means and convolutional neural network. Bull Eng Geol Environ 83, 159 (2024). https://doi.org/10.1007/s10064-024-03658-1
     
 ## Install & complie
 Please directly copy all the code into your workspace and complie it with any complier that supports MATLAB 2021b,python 3.9 and later versions. The HDBSCAN library is need to install in python.
